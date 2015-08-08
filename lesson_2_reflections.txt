@@ -10,13 +10,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 	A: By using the git diff and git diff --staged command and reviewing the changes shown.
-	   If you have not added the file then the git diff will show nothing. If you have
-	   added the file the it will show any changes.
+	   If you have added (staged) the modified a file then the 
+	   git diff will show nothing. If you have
+	   NOT added (staged) the file the it will show changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	A: When trying out a possible change. Creating a new release.
 
 How do the diagrams help you visualize the branch structure?
+	A: It allows you to see branches that are not reachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
