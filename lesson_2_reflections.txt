@@ -23,6 +23,11 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	A: Changes from merged branches are placed into the current checked out branch.
+	   There are branches that could be unreachable.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	A: Git's automatic merge is powerful for lines that are not in conflict
+	   and when they do the inserting of lines so you can pick and choose is
+	   very powerful.
