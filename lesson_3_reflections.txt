@@ -34,4 +34,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	A: When there are multiple contributors for a repository the master branch could
+	   change offen.  If you use branches for changes then you have an oppertunity	
+	   to review the changes before they get into master. 
